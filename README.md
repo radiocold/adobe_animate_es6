@@ -6,7 +6,7 @@ https://youtu.be/cUcgVOnEuhk
 
 El proyecto es en resumen la utilización de webpack y los archivos que genera Adobe Animate , webpack es usado para empaquetar y transpilar el código Javascript ES6 a Javascritp ES5 , Adobe Animate es usado para generar las animaciones y recursos gráficos.
 
-Para poder iniciarlo localmente , debes descargar todo el proyecto y en la consola colocar:
+Para poder iniciarlo localmente , debes descargar todo el proyecto y en la carpeta ejecuta el comando:
 
 npm install  
 
