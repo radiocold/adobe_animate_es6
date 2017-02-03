@@ -4,16 +4,16 @@ export default class Main {
     {
         console.log("Main fue creado !!!");
         
-       this.canvas = document.getElementById("canvas");
-	   this.anim_container = document.getElementById("animation_container");
-	   this.dom_overlay_container = document.getElementById("dom_overlay_container");
-        
-	   images = images||{};
-        
-	   var loader = new createjs.LoadQueue(false);
-	   loader.addEventListener("fileload", (evt) => { this.handleFileLoad(evt); });
-	   loader.addEventListener("complete", (evt) => { this.handleComplete(evt); });
-	   loader.loadManifest(lib.properties.manifest);
+        this.canvas = document.getElementById("canvas");
+        this.anim_container = document.getElementById("animation_container");
+        this.dom_overlay_container = document.getElementById("dom_overlay_container");
+
+        images = images||{};
+
+        var loader = new createjs.LoadQueue(false);
+        loader.addEventListener("fileload", (evt) => { this.handleFileLoad(evt); });
+        loader.addEventListener("complete", (evt) => { this.handleComplete(evt); });
+        loader.loadManifest(lib.properties.manifest);
         
     }
     
@@ -24,7 +24,6 @@ export default class Main {
     
     handleComplete(evt) 
     {
-        //This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
         var queue = evt.target;
         var ssMetadata = lib.ssMetadata;
         for(var i=0; i<ssMetadata.length; i++) {
@@ -36,6 +35,7 @@ export default class Main {
     
     onBuildGame() 
     {
+        // Codigo de inicio para la aplicación
         this.stage = new createjs.Stage(this.canvas);
         
         var caverman = new lib.mc_caverman();
@@ -45,7 +45,7 @@ export default class Main {
         this.stage.addChild(caverman);
         
         createjs.Ticker.setFPS(lib.properties.fps);
-		createjs.Ticker.addEventListener("tick", this.stage);
+        createjs.Ticker.addEventListener("tick", this.stage);
     }
 }
 
