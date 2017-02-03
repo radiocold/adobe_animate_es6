@@ -8,9 +8,9 @@ El proyecto es en resumen la utilización de webpack y los archivos que genera A
 
 Para poder iniciarlo localmente , debes descargar todo el proyecto y en la consola colocar:
 
-npm init  
+npm install  
 
-Con ello instalará todos los utilizarios necesarios para utilizar el proyecto.
+Con ello instalará todos los utilizarios necesarios para utilizar el proyecto, internamente leerá el archivo package.json.
 
 Luego debes escribir en la consola:
 
