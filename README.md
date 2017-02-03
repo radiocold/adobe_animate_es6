@@ -1,4 +1,4 @@
-# adobe_animate_es6
+# Adobe Animate + JavaScript ES6
 
 La explicación está en el video:
 
