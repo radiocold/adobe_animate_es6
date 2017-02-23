@@ -20,6 +20,6 @@ Luego debes escribir en la consola:
 
 Con ello generará el archivo "bundle.js" dentro de la carpeta "deploy".
 
-Para ejecutar la aplicacion debes abrir el archivo game.fla con Adobe Animate y presionar CTR + ENTER , con ello abrirá tu browser con la ejecuón de tu aplicación.
+Para ejecutar la aplicacion debes abrir el archivo game.fla con Adobe Animate y presionar CTR + ENTER , con ello abrirá tu browser ejecutando tu aplicación.
 
 
