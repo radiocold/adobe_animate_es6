@@ -1,20 +1,22 @@
-# adobe_animate_es6
+# Adobe Animate + JavaScript ES6
 
 La explicación está en el video:
 
 https://youtu.be/cUcgVOnEuhk
 
-El proyecto es en resumen la utilización de webpack y los archivos que genera Adobe Animate , webpack es usado para empaquetar y transpilar el código Javascript ES6 a Javascritp ES5 , Adobe Animate es usado para generar las animaciones y recursos gráficos.
+El proyecto es en resumen la utilización de webpack y los archivos que genera Adobe Animate , webpack es usado para empaquetar y transpilar el código Javascript ES6 a Javascript ES5 , Adobe Animate es usado para generar las animaciones y recursos gráficos.
 
-Para poder iniciarlo localmente , debes descargar todo el proyecto y en la carpeta ejecuta el comando:
+Requisito : Tener instalado NodeJS
 
-npm install  
+Para poder iniciarlo localmente , debes descargar todo el proyecto y en la carpeta ejecutar el comando:
 
-Con ello instalará todos los utilizarios necesarios para utilizar el proyecto, internamente leerá el archivo package.json.
+<code>npm install</code>
+
+Con ello instalará todos los utilizarios necesarios para el proyecto, internamente leerá el archivo package.json.
 
 Luego debes escribir en la consola:
 
-webpack 
+<code>webpack</code>
 
 Con ello generará el archivo "bundle.js" dentro de la carpeta "deploy".
 
