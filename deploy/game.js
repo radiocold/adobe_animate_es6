@@ -130,16 +130,18 @@ p.nominalBounds = new cjs.Rectangle(-46,-65,91.1,77.1);
 
 
 // stage content:
-(lib.assets = function(mode,startPosition,loop) {
+(lib.game = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// timeline functions:
 	this.frame_0 = function() {
 		this.stop();
+		
+		onInitApp();
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = null;
@@ -151,7 +153,7 @@ lib.properties = {
 	color: "#66CC00",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/caverman.png?1486137271120", id:"caverman"}
+		{src:"images/caverman.png?1487872196345", id:"caverman"}
 	],
 	preloads: []
 };
