@@ -153,7 +153,7 @@ lib.properties = {
 	color: "#66CC00",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/caverman.png?1487872196345", id:"caverman"}
+		{src:"images/caverman.png?1487893267846", id:"caverman"}
 	],
 	preloads: []
 };
