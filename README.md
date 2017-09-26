@@ -9,6 +9,7 @@ El proyecto es en resumen la utilización de webpack y los archivos que genera A
 Requisito : Tener instalado NodeJS
 
 Para poder iniciarlo localmente , debes descargar todo el proyecto y en la carpeta ejecutar el comando:
+
 <code>npm install -g webpack</code>
 <code>npm install</code>
 
