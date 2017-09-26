@@ -10,7 +10,7 @@ Requisito : Tener instalado NodeJS
 
 Para poder iniciarlo localmente , debes descargar todo el proyecto y en la carpeta ejecutar el comando:
 
-<code>npm install -g webpack</code>
+<code>npm install -g webpack</code> </br>
 <code>npm install</code>
 
 Con ello instalará todos los utilizarios necesarios para el proyecto, internamente leerá el archivo package.json.
